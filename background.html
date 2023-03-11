@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Form</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            background-image: url(img.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        .login-box {
+            top: 25%;
+            left: 37%;
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            box-sizing: border-box;
+            border-radius: 10px;
+            height: 300px;
+            width: 320px;
+            padding: 50px;
+            color: aqua;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            color: coral;
+            padding-bottom: 10px;
+        }
+
+        .login-box p {
+            margin: 0%;
+            padding: 0%;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .login-box input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+
+        .login-box input [type="text"] 
+        .login-box input [type="password"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;  
+            color: #fff;
+            font-size: 16px;
+        }
+
+        ::placeholder {
+            color: rgba(235, 61, 38, 0.822);
+        }
+
+        .login-box input [ type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #ff267e;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .login-box a {
+            color: red;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>Log!N</h1>
+        <form>
+            <p>Email</p>
+            <input type="email" name="" placeholder="abc@gmail.com">
+            <p>Password</p>
+            <input type="text" name="" placeholder="Enter your Name">
+            <input type="submit" value="sign in">
+            <a href="#"> Forget Password</a>
+        </form>
+    </div>
+</body>
+
+</html>

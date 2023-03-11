@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+        p:last-child {
+            color: brown;
+        }
+        p:nth-child(3){
+            color: rgb(133, 220, 20);
+        }
+        p:nth-child(2){
+            color: chartreuse;
+        }
+        .why::after {
+            content: "hyy";
+        }
+        input[type="number"]:out-of-range{
+            border: 2px solid red;
+        }
+        input[type="number"]:in-range{
+            border: 2px solid greenyellow;
+        }
+        input[type="email"]:invalid{
+            border: 2px solid red;
+        }
+        input[type="email"]:valid{
+            border: 2px solid greenyellow;
+        }
+        .first {
+            text-shadow: 5px 5px 2px red;
+        }
+        .two {
+            text-shadow: -5px -5px 2px rgb(0, 0, 0);
+        }
+        .three {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            color: whitesmoke;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2),1px 1px 1px rgba(0, 0, 0, 0.7);
+        }
+        div {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            box-shadow: 2px 1px 2px 4px black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>fftytytft</p>
+        <p>gyuguyftf</p>
+        <p>hgfftyf</p>
+        <p>hhuhuh</p>
+        <p class="why">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta placeat corporis voluptatum iure? Quo, nam cupiditate quidem dolores labore sit, sed aliquam, rerum maxime possimus tempore. Ipsa, animi porro?</p>
+    </div>
+    <input type="number" min="5" max="10">
+    <input type="email">
+    <div>
+        <p class="first">Hello</p>
+        <p class="two">Hyy</p>
+        <p class="three">Hyy</p>
+    </div>
+</body>
+</html>

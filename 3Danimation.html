@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            background-color: black;
+            color: white;
+            animation-name: ex;
+            animation-duration: 4s;
+            /* animation-delay: 1s; */
+            position: relative;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            /* animation-direction: normal; */
+            animation-direction: alternate-reverse;
+            /* animation-direction: reverse; */
+            background-size: cover;
+        }
+        /* @keyframes ex {
+            from{background-color: red;}
+            to{background-color: blue;}
+            } */
+        @keyframes ex {
+            0% {
+                background-image: url(holi.jpg);
+                /* background-color: black; */
+                top: 0;
+                left: 0;
+            }
+            25% {
+                background-image: url(IMG_2005.JPG);
+                /* background-color: blue; */
+                top: 0;
+                left: 80%;
+            }
+            50% {
+                background-image: url(img.jpg);
+                /* background-color: brown; */
+                top: 200px;
+                left: 50%;
+            }
+            75% {
+                background-image: url(Premium\ Photo\ _\ Indian\ festival\ holi\,\ colors\ in\ bowl\,\ top\ view.jpeg);
+                /* background-color: chartreuse; */
+                top: 300px;
+                left: 0;
+            }   
+            100% { 
+                background-image: url(holi.jpg);
+                /* background-color: black; */
+                top: 0;
+                left: 0%;
+            }         
+        }
+    </style>
+</head>
+<body>
+    <div>HELLO</div>
+</body>
+</html>

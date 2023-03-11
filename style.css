@@ -1,0 +1,102 @@
+
+ .main {
+            background-color: black;
+            height: 420px;
+            width: 30%;
+            box-sizing: border-box;
+            border-color: chartreuse;
+            box-sizing: content-box;
+            padding: 10px 10px 10px;
+        }
+
+        .header {
+            background-color: blueviolet;
+            height: 80px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .p {
+            color: aqua;
+            padding-left: 70px;
+            padding-top: 10px;
+        }
+
+        .first {
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .nav {
+            background-color: cadetblue;
+            height: 80px;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .s {
+            color: aqua;
+            padding-left: 120px;
+            padding-top: 10px;
+        }
+
+        .second {
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .section {
+            background-color: darkmagenta;
+            height: 70px;
+            width: 60%;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .z {
+            color: aqua;
+            padding-top: 10px;
+        }
+
+        .third {
+            align-items: center;
+            font-size: 45px;
+        }
+
+        .article {
+            background-color: darksalmon;
+            height: 70px;
+            width: 60%;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .x {
+            color: aqua;
+            padding-top: 10px;
+        }
+
+        .fourth {
+            align-items: center;
+            font-size: 45px;
+        }
+
+        .footer {
+            background-color: blueviolet;
+            height: 80px;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .v {
+            color: aqua;
+            padding-left: 70px;
+            padding-top: 10px;
+        }
+
+        .six {
+            align-items: center;
+            font-size: 50px;
+        }

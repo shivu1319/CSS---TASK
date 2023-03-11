@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-size: xx-large;
+      }
+      button {
+        background-color: green;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 40px;
+      }
+
+      button:hover {
+        background-color: blueviolet;
+        color: black;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .two:visited {
+        color: black;
+      }
+
+      input:focus {
+        background-color: rgb(129, 238, 211);
+      }
+
+      .four::first-letter {
+        color: darkblue;
+        font-size: 90px;
+      }
+
+      .three::first-line {
+        color: red;
+      }
+
+      .five::after {
+        content: url(./Shivam\Photography\Logo\Design\\(2\).jpeg);
+      }
+
+      .six::before {
+        content: url(./Shivam\Photography\Logo\Design\\(2\).jpeg);
+      }
+
+      li::marker {
+        color: blue;
+      }
+
+      .seven::selection {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      align="center"
+      border="1"
+      cellspacing="0"
+      cellpadding="30"
+      width="100%"
+    >
+      <tr>
+        <th colspan="3">Pseudo Class:-</th>
+      </tr>
+      <tr>
+        <td>Hover</td>
+        <th>:Hover</th>
+        <td>
+          <button>Hover Here</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Link</td>
+        <th>:Link</th>
+        <td>
+          <a href="#">Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Active</td>
+        <th>:Active</th>
+        <td>
+          <a href="#">Active-Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Visited</td>
+        <th>:Visited</th>
+        <td>
+          <a class="two" href="./form.html">Visited</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Focus</td>
+        <th>:Focus</th>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <th colspan="3">Pseudo Element:-</th>
+      </tr>
+      <tr>
+        <td>First-letter</td>
+        <th>::First-letter</th>
+        <td>
+          <p class="four">First-letter</p>
+        </td>
+      </tr>
+      <tr>
+        <td>First-line</td>
+        <th>::First-line</th>
+        <td class="three">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+          dolores deserunt voluptatem ipsa quidem eos iusto eaque delectus
+          numquam odio, aspernatur unde maiores molestias eius vitae sint ullam
+          beatae possimus.
+        </td>
+      </tr>
+      <tr>
+        <td>After</td>
+        <td>::After</td>
+        <td>
+          <p class="five">Lorem ipsum dolor sit amet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>Before</td>
+        <td>::Before</td>
+        <td>
+          <p class="six">Lorem ipsum dolor sit amet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>Marker</td>
+        <td>::Marker</td>
+        <td>
+          <ul>
+            <li>Shivu Kuhikar</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Selection</td>
+        <td>::Selection</td>
+        <td>
+          <p class="seven">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit,
+            assumenda, sit alias consequatur officia minus aperiam nesciunt ea
+            repellendus sequi libero laboriosam ullam maiores similique unde
+            quae quis eius ex.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

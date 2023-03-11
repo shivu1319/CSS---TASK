@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #222831; */
+}
+
+body {
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+a,
+button {
+  color: white;
+}
+
+.image-clickable {
+  margin-right: auto;
+}
+
+.logo {
+  height: 80px;
+  width: 150px;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: rgba(0, 173, 181, 0.8);
+}
+
+button {
+  background: #04bd70;
+  cursor: pointer;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  transition: all 0.5s ease 0s;
+  margin-left: 20px;
+}
+
+button:hover {
+  background: rgba(0, 173, 181, 0.8);
+}
+    </style>
+</head>
+<body>
+     <header>
+      <span class="image-clickable">
+        <a href="./background.html">
+          <img src="./Shivam Photography Logo Design (2).jpeg" alt="main-logo" class="logo">
+        </a>
+      </span>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <a href="#"><button>Contact Us</button></a>
+    </header>
+
+</body>
+</html>
